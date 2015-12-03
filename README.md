@@ -15,3 +15,5 @@ classes & design patterns:
 - factory for adventures, actors, items, etc
 - config for server settings, enable ui
 - json serialization for players
+
+- maybe port to java
