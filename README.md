@@ -20,3 +20,11 @@ classes & design patterns:
 - json serialization for players
 
 - maybe port to java
+
+server functionality (controller)
+- process client input request
+- sent output response
+
+client functionality (view)
+- gather user input
+- display server response
