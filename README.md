@@ -12,6 +12,9 @@ a text-based adventure game
 
 classes & design patterns:
 
+- actor class -> player, npc, monster subclasses
+- item class -> weapon, armor subclasses
+
 - factory for adventures, actors, items, etc
 - config for server settings, enable ui
 - json serialization for players
