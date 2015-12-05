@@ -4,9 +4,8 @@ from collections import OrderedDict
 def move(dir):
     print('I moved %s' % dir)
 
-def say(a, b=1):
-    for num in range(int(b)):
-        print('I said %s' % a)
+def whisper(to, msg):
+    print('Whisper %s : %s' % (to, msg))
 
 def search():
     print('Searching room')
@@ -14,7 +13,7 @@ def search():
 if __name__ == "__main__":
 
     # Functions go here, can be given any call name you want as long as it's a single word
-    command_dict = OrderedDict([('move', move), ('say', say), ('search', search)])
+    command_dict = OrderedDict([('move', move), ('whisper', whisper), ('search', search)])
 
     while True:
         print('Available commands : ', *command_dict.keys())
