@@ -1,6 +1,6 @@
 package com.app.main;
 
-public class game
+public class GameCore
 {
-
+	
 }
