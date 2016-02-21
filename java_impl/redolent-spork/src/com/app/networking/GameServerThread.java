@@ -69,7 +69,8 @@ public class GameServerThread
 			{
 				mInput = new BufferedReader(new InputStreamReader(mSocket.getInputStream()));
 				mOutput = new PrintWriter(mSocket.getOutputStream(), true);
-			} catch (IOException e)
+			} 
+			catch (IOException e)
 			{
 				// TODO Auto-generated catch block
 				e.printStackTrace();
